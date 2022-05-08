@@ -13,6 +13,7 @@ import Skills from './contentOfPages/Skills';
 import Contact from './contentOfPages/Contact';
 import {useState} from "react";
 
+
 function App() {
 
   const [hobbies,setHobbies] = useState([
@@ -26,6 +27,7 @@ function App() {
     const [showMore,setShowMore] = useState(false);
     const [buttonName, setButtonName] = useState("More...");
   
+
     function addMore () {
       if (showMore===false) {
         setTitle("Hobbies");
@@ -44,6 +46,7 @@ function App() {
     }
 
 
+    
   return (
     <BrowserRouter>
     <div className='App'>
