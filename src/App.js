@@ -16,11 +16,7 @@ import {useState} from "react";
 
 function App() {
 
-  const [hobbies,setHobbies] = useState([
-    // {id:1,title:"Basketball",content:"I've been playing basketball since I was eight and I really enjoy it!"},
-    // {id:2,title:"Reading",content:"I love business books and science fiction."},
-    // {id:3,title:"Quizzes",content:"I haven't participated in one yet, but I'm planning soon."}
-    ]);
+  const [hobbies,setHobbies] = useState([]);
   
   
     const [title,setTitle] = useState("");
